@@ -1,13 +1,13 @@
-package org.demo.Spring.Reactive;
+package org.demo.webflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringReactiveApplication {
+public class WebFLuxDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringReactiveApplication.class, args);
+		SpringApplication.run(WebFLuxDemoApplication.class, args);
 	}
 
 }
